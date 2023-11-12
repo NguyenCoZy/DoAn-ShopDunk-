@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eaf151cca5b8459391e53ac97959f19f" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="ShopDunkModel.ADMINUSER" Width="1.5" PointX="1.125" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Category" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Color" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Customer" Width="1.5" PointX="14.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Images" Width="1.5" PointX="4.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.OrderDetail" Width="1.5" PointX="8.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Orders" Width="1.5" PointX="11.125" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.Product" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopDunkModel.ProductDetail" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="ShopDunkModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_ProductDetail_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_Orders_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_Images_ProductDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_OrderDetail_ProductDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopDunkModel.FK_ProductDetail_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,451 @@
+﻿body {
+    margin: 0;
+    border: none;
+    font-family: Arial;
+}
+
+#pro-detail {
+    width: 100%;
+    height: auto;
+}
+
+#pro-pic {
+    height: 662px;
+    width: 50%;
+}
+
+#pro-img {
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+    margin-left: 70px;
+}
+
+
+#pro-view {
+    height: 116px;
+    max-width: 662px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.item {
+    width: 100px;
+    height: 91px;
+    border: 1px black;
+    margin: 0px 3px 0px 0px;
+}
+
+    .item img {
+        width: 100px;
+        height: 91px;
+    }
+
+#pro-info {
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: 156px;
+}
+
+    #pro-info p {
+        color: #0066cc;
+    }
+
+#price {
+    color: #0066cc;
+}
+
+#tt {
+    max-width: 570px;
+    float: left;
+    margin-left: 30px;
+}
+
+.c {
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+#tt-phu {
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    margin: 17px 0px 0px;
+    padding: 15px 16px;
+    background-color: whitesmoke;
+    border: dimgray;
+}
+
+    #tt-phu ul {
+        margin-left: -15px;
+    }
+
+    #tt-phu li {
+        color: dimgray;
+        font-size: 13px;
+        list-style: none;
+        margin: 5px 0px 0px -17px;
+    }
+
+#phu-kien {
+    width: 1200px;
+    height: 420px;
+    padding: 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+#pk {
+    width: 190px;
+    height: 288px;
+}
+
+    #pk img {
+        width: 190px;
+        height: 190px;
+    }
+
+#pk-de {
+    width: 190px;
+}
+
+#muc {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+    #muc input {
+        width: 144px;
+        height: 39px;
+        border-radius: 10px;
+        border-color: rgb(233, 224, 224);
+        background-color: white;
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+
+#newRegister {
+    background-color: #F2F2F2;
+    max-width: 100%;
+    height: 250px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    max-width: 100%;
+    height: 500px;
+    padding-top: 61px;
+    padding-bottom: 21px;
+}
+
+#thongtin {
+    padding: 0 0 0 50px;
+}
+
+#gioithieu {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#box-gioi-thieu {
+    color: white;
+    width: 390px;
+    height: 314px;
+    font-size: 16px;
+}
+
+    #box-gioi-thieu img {
+        max-width: 184px;
+        max-height: 47.85px;
+    }
+
+#thongtin {
+    color: white;
+    width: 300px;
+}
+
+    #thongtin li {
+        height: 28px;
+    }
+
+    #thongtin ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+#list span {
+    line-height: 1.5em;
+}
+
+.lienhe {
+    width: 240px;
+    height: 40px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#list li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+article {
+    background-color: whitesmoke;
+    height: auto;
+}
+
+#breadcrumb {
+    width: 100%;
+    max-height: 100px;
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+}
+
+    #breadcrumb .trangchu a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #breadcrumb li {
+        padding: 7px 0 0 0;
+    }
+
+    #breadcrumb ul {
+        margin: auto;
+        display: flex;
+        padding: 0 0 0 7px;
+        list-style-type: none;
+        height: 32px;
+        margin: 0 146.4px 0 146.4px;
+    }
+
+#title_product h1 {
+    margin: 0px;
+    padding: 16px 0 10px 0;
+}
+
+#bannerproduct img {
+    max-height: 400px;
+    max-width: 1200px;
+    border-radius: 12px;
+    margin: 0 165px 0 165px;
+}
+
+#bannerproduct {
+    height: 437px;
+}
+
+#title_product a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    border: none;
+    font-family: Arial;
+}
+
+#pro-detail {
+    width: 100%;
+    height: auto;
+}
+
+#pro-pic {
+    height: 662px;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+#pro {
+}
+
+#pro-img {
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+}
+
+
+
+#pro-view div {
+    border-radius: 10px;
+    border: 1px solid dimgray;
+}
+
+#pro-view img {
+    border-radius: 10px;
+}
+
+.item {
+    width: 100px;
+    height: 91px;
+    border: 1px black;
+    margin: 0px 3px 0px 0px;
+}
+
+    .item img {
+        width: 100px;
+        height: 91px;
+    }
+
+
+
+#price {
+    color: #0066cc;
+}
+
+#tt {
+    float: left;
+    margin-left: 30px;
+}
+
+.c {
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+#tt-phu {
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    margin: 17px 0px 0px;
+    padding: 15px 16px;
+    border: 1px solid dimgray;
+}
+
+    #tt-phu ul {
+        margin-left: -15px;
+    }
+
+    #tt-phu li {
+        color: dimgray;
+        font-size: 13px;
+        list-style: none;
+        margin: 5px 0px 0px -17px;
+    }
+
+#phu-kien {
+    max-width: 100%;
+    height: 420px;
+    padding: 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pk {
+    width: 190px;
+    height: 288px;
+}
+
+    #pk img {
+        width: 190px;
+        height: 190px;
+    }
+
+#pk-de {
+    width: 190px;
+}
+
+#muc {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+    #muc input {
+        width: 144px;
+        height: 39px;
+        border-radius: 10px;
+        border-color: rgb(233, 224, 224);
+        background-color: white;
+        margin-right: 20px;
+    }
+
+#ly p {
+    font-size: 12px;
+    color: dimgray;
+}
+
+#cau-hoi {
+    font-size: 14px;
+}
+
+#goi-y {
+    width: 80%;
+    height: auto;
+    margin-left: 150px;
+}
+
+#goi-y-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+    #goi-y-item div {
+        width: 50%;
+        height: auto;
+        padding: 60px 0px 20px 50px;
+    }
+
+#qc {
+    max-width: 100%;
+    height: 763px;
+    background-color: black;
+}
+
+#sp {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#sp2 {
+    width: 70%;
+    height: 524px;
+    background-color: whitesmoke;
+    margin: 150px 150px 0px 200px;
+    border-radius: 20px;
+    display: flex;
+}
+
+#link {
+    margin: 20px 0px 20px 60px;
+    display: flex;
+}
+
+    #link a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        margin-right: 5px;
+    }

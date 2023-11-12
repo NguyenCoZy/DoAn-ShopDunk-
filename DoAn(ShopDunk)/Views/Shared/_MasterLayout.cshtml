@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="topDiv">
+        <div class="topDiv1">
+        <header id="header1">
+            <a href="/Home/Index">
+                <img id="logo-img" src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png" />
+            </a>
+        </header>
+        <nav>
+            <div id="topmenu">
+                <ul>
+                    <li>
+                       
+                        <a href="/Category/Category">iPhone</a>
+                    </li>
+                    <li><a href="https://shopdunk.com/ipad">iPad</a></li>
+                    <li><a href="https://shopdunk.com/mac">Mac</a></li>
+                    <li><a href="https://shopdunk.com/apple-watch">Watch</a></li>
+                    <li><a href="https://shopdunk.com/am-thanh">Âm thanh</a></li>
+                    <li><a href="https://shopdunk.com/phu-kien">Phụ kiện</a></li>
+
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="https://shopdunk.com/khuyen-mai">Khuyến mãi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header id="header2">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <a href="account.html"><i class="fa-regular fa-user"></i></a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="https://shopdunk.com/images/flags/vn.png" />
+            <img src="https://shopdunk.com/images/flags/us.png" />
+
+        </header>
+    </div>
+        
+        </div>
+    <div class="mainContent">
+        <div>
+            @RenderBody()
+        </div>
+        <section id="banner">
+        </section>
+
+        <div id="block-content">
+        </div>
+    </div>
+
+    <article>
+    </article>
+
+    <div class="bottomDiv">
+        <form id="newRegister">
+            <h1 style="margin-top:0;padding-top:50px;">Đăng ký nhận thông tin từ ShopDunk</h1>
+            <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+            <input type="email" id="email" placeholder="Email của bạn" style="line-height:20px; padding:5px;width:500px; border-radius:12px; " />
+            <input type="button" id="submit" value="Đăng ký" style="line-height:20px;padding:5px;width:100px;border-radius:15px; background-color:#0065CA; margin-left:-50px" />
+        </form>
+        <footer>
+            <div id="topfooter">
+                <div id="gioithieu">
+
+                    <div id="box-gioi-thieu">
+                        <img src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png" />
+
+                        <p>Năm 2020, ShopDunk trở thành đại lý uỷ quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho người dùng Việt Nam.</p>
+                    </div>
+                    <div id="thongtin">
+                        <div id="titel_tt">
+                            <strong>Thông Tin</strong>
+                        </div>
+                        <div id="nhataitro">
+                            <ul id="list">
+                                <li><a href="https://shopdunk.com/tin-tuc">Tin tức</a></li>
+                                <li><a href="https://shopdunk.com/gioi-thieu">Giới thiệu</a></li>
+                                <li><a href="https://shopdunk.com/check-imei">Check imei</a></li>
+                                <li><a href="https://shopdunk.com/phuong-thuc-thanh-toan">Phương thức thanh toán</a></li>
+                                <li><a href="https://shopdunk.com/thue-diem-ban-le">Thuê điểm bán lẻ</a></li>
+                                <li><a href="https://shopdunk.com/care">Bảo hành và sửa chữa</a></li>
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="https://shopdunk.com/web-review">Đánh giá chất lượng, khiếu nại</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="thongtin">
+                        <div id="titel_tt">
+                            <strong>Chính sách</strong>
+                        </div>
+                        <div id="nhataitro">
+                            <ul id="list">
+                                <li><a href="https://shopdunk.com/thu-cu-doi-moi">Thu cũ đổi mới</a></li>
+                                <li><a href="https://shopdunk.com/chinh-sach-ship-cod">Giao hàng</a></li>
+                                <li><a href="https://shopdunk.com/giao-hang-zalopay">Giao hàng(Zalo Pay)</a></li>
+                                <li><a href="https://shopdunk.com/chinh-sach-huy-giao-dich-va-hoan-tien">Huỷ giao dịch</a></li>
+                                <li><a href="https://shopdunk.com/chinh-sach-doi-tra">Đổi trả</a></li>
+                                <li><a href="https://shopdunk.com/chinh-sach-bao-hanh">Bảo hành</a></li>
+                                <li><a href="https://shopdunk.com/dich-vu">Dịch vụ</a></li>
+                                <li><a href="https://shopdunk.com/giai-quyet-khieu-nai">Giải quyết khiếu nại</a></li>
+                                <li><a href="=https://shopdunk.com/chinh-sach-bao-mat">Bảo mật thông tin</a></li>
+                                <li><a href="https://shopdunk.com/huong-dan-thanh-toan-qua-qr-vnpay">Hướng dẫn thanh toán qua VNPAY</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="thongtin">
+                        <div id="titel_tt">
+                            <strong>Dịa chỉ & Liên hệ</strong>
+                        </div>
+                        <div id="nhataitro">
+                            <ul id="list">
+                                <li><a href="https://shopdunk.com/login?ReturnUrl=%2Fcustomer%2Finfo">Tài khoản của tôi</a></li>
+                                <li><a href="https://shopdunk.com/login?ReturnUrl=%2Forder%2Fhistory">Đơn đặt hàng</a></li>
+                                <li><a href="https://shopdunk.com/find-store">Hệ thống cửa hàng</a></li>
+                                <li><a href="https://www.google.com/maps//data=!3m1!4b1!4m3!11m2!2s0Vq6CiZoSh-QELJ3lKHSgQ!3e3?shorturl=1">Tìm Store trên Google Map</a></li>
+                                <li>
+                                    <a href="https://shopdunk.com/thue-diem-ban-le">Mua hàng:<span style="color:#2597dd">1900.6626</span></a><br />
+                                    <span class="lienhe">Nhánh 1: khu vực Hà Nội và các tỉnh phía bắc</span><br />
+                                    <span class="lienhe">Nhánh 2: khu vực Hồ Chí Minh và các tỉnh phía nam</span><br />
+                                    <span class="lienhe">Nhánh 3: Kiếu nại và góp ý</span><br />
+                                </li>
+                                <li style="width:255px; height:30px;margin-top:115px;"><a href="#">Doanh nghiệp: <span style="color:#2597dd">0822.688.688</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottomfooter"></div>
+        </footer>
+    </div>
+</body>
+</html>
+

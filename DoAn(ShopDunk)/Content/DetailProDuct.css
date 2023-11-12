@@ -1,0 +1,290 @@
+﻿body {
+    margin: 0px;
+    border: none;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+
+.product-essential {
+    width: 75rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.pic img {
+    height: 34.375rem;
+    width: 34.375rem;
+    border-radius: 2px;
+}
+.main {
+    width:100%;
+    height:auto;
+}
+.pic {
+    width: 36.75rem;
+    height: 36.75rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+   
+}
+
+
+
+
+.name-product h1 span {
+    font-size: 27px;
+    margin: 0 0 20px 0;
+}
+
+.name-product h1 {
+    margin: 0;
+    width: 35.625rem;
+}
+
+.name-product {
+    padding-bottom: 20px;
+}
+
+.all-content {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.rating {
+    width: 5rem;
+    height: 0.9375rem;
+    padding-right: 0.625rem;
+}
+
+    .rating i {
+        width: 11px;
+        height: 12px;
+    }
+
+.sosanh i {
+    padding-right: 10px
+}
+
+.sosanh button {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #0066CC;
+}
+
+.container-name-product {
+    border-bottom: 3px solid #F5F5F7;
+}
+
+.price-product {
+    margin-top: 15px;
+    display: flex;
+}
+
+.new-price {
+    font-size: 24px;
+    color: #0066CC;
+    padding-right: 15px;
+}
+
+.old-price {
+    font-size: 18px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.color ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+    .color ul span {
+        margin: 0 10px 10px 10px;
+    }
+
+.color li {
+    margin: 10px;
+}
+
+.brown {
+    width: 2.225rem;
+    height: 2.225rem;
+    background-color: #C4B9B3;
+    border-radius: 50%;
+}
+
+.black {
+    width: 2.225rem;
+    height: 2.225rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.grey {
+    width: 2.225rem;
+    height: 2.225rem;
+    background-color: #CACACC;
+    border-radius: 50%;
+}
+
+.pink {
+    width: 2.225rem;
+    height: 2.225rem;
+    background-color: #F3D9DA;
+    border-radius: 50%;
+}
+
+.red {
+    width: 2.225rem;
+    height: 2.225rem;
+    background-color: #ED0006;
+    border-radius: 50%;
+}
+.buy{
+    margin-top:70px;
+}
+
+.buy button {
+    width: 35.625rem;
+    height: 4.375rem;
+    cursor:pointer;
+    background-color:#0066CB;
+    border-radius:12px;
+    border:none;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+}
+.list-images-product {
+    width:36.75rem;
+    height:110px;
+    display:flex;
+    overflow:hidden;
+    overflow-x:scroll;
+}
+    .list-images-product::-webkit-scrollbar
+    {
+        height:10px;
+    }
+    
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: #CACACC;
+}
+    .list-images-product img {
+        width: 100px;
+        height: 94px;
+        margin: 2px;
+        border: 1px solid;
+        border-radius: 12px;
+    }
+.title-product {
+    width:75rem;
+    margin: auto;
+    font-size:30px;
+}
+#dongiPhone {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.namepro a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    max-height: 54px;
+}
+
+.namepro {
+    width: 245px;
+    max-height: 54px;
+    padding-bottom: 10px;
+}
+
+#price {
+    display: flex;
+    width: 225px;
+    height: 24px;
+}
+
+#newprice {
+    font-size: 16px;
+    color: cornflowerblue;
+}
+
+#oldprice {
+    font-size: 14px;
+    color: darkgrey;
+    padding-left: 4px;
+    text-decoration: line-through;
+}
+
+#disco {
+    font-size: 14px;
+    color: darkgray;
+    padding-left: 4px;
+}
+
+
+#item-box {
+    width: 253px;
+    height: 361px;
+    padding: 5px 15px 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+#tag {
+    display: flex;
+    justify-content: flex-end;
+    width: 293px;
+    height: 40px;
+}
+
+    #tag img {
+        max-height: 30px;
+        margin-right: 30px;
+    }
+
+#item-box h3 {
+    margin: 0;
+    width: 245px;
+    height: 34px;
+    padding-top: 10px
+}
+.motavahoidap {
+   list-style-type:none;
+   display:flex;
+   gap:20px;
+   justify-content:center;
+   width:75rem;
+   height:2.5rem;
+   margin:auto;
+   padding:0;
+  margin-top:30px;
+}
+.motavahoidap li a{
+    padding:8px 16px;
+    border: 1px solid;
+    border-radius:12px;
+    font-size:14px;
+}
+    .motavahoidap li {
+        height:20px;
+    }
